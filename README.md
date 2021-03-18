@@ -76,12 +76,13 @@ There is no golden formula for composing the perfect song.  However, depending o
 
 **Applications:**
 	- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres.
+	-
 **References:**
-	- [music theory wiki](https://en.wikipedia.org/wiki/Music_theory)
-	- [song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)
-	- [Song lyrics dataset](https://www.kaggle.com/deepshah16/song-lyrics-dataset)
-	- [Spotify 1.2M+ Songs](https://www.kaggle.com/rodolfofigueroa/spotify-12m-songs)
-	- [Spotify 1921-2020](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)
-	- [NYT API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)
+	- [music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
+	- [song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
+	- [Song lyrics dataset](https://www.kaggle.com/deepshah16/song-lyrics-dataset)  <br>
+	- [Spotify 1.2M+ Songs](https://www.kaggle.com/rodolfofigueroa/spotify-12m-songs)  <br>
+	- [Spotify 1921-2020](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)  <br>
+	- [NYT API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)  <br>
 	
 	
