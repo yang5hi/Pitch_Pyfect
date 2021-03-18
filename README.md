@@ -55,15 +55,15 @@ Hip-Hop emerged later with the birth of technology/digital recording.
 There is no golden formula for composing the perfect song.  However, depending on the genre, there are a couple of tips to keep in mind: <br>
 	- For Rock: <br>
 		- Recommended Keys: G, C, D, A <br>
-		- Major or Minor?:  Major <br>
+		- Mode:  Major <br>
 		- Ideal Tempo: 100-150 bpm <br>
 	- For Pop (Pop has slightly more freedom to experiment with key signature than Rock because it is less reliant on the guitar): <br>
 		- Recommended Keys: G, C, D, A <br>
-		- Major or Minor? Major <br>
+		- Mode: Major <br>
 		- Ideal Tempo: 100-150 bpm <br>
 	- For Hip-Hop <br>
 		- Not restricted to any key, free to experiment <br>
-		- Major or Minor? Not restricted, free to use either <br>
+		- Mode: Not restricted, free to use either <br>
 		- Ideal Tempo: 80-100 bpm <br>
 
 **Limitations of the project:**
