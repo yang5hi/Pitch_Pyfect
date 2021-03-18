@@ -75,9 +75,9 @@ There is no golden formula for composing the perfect song.  However, depending o
 	The result can be just as good as the data sample.
 
 **Applications:**
-	- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres.
-	-
-**References:**
+	- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres. <br>
+	
+**References:** <br>
 	- [music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
 	- [song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
 	- [Song lyrics dataset](https://www.kaggle.com/deepshah16/song-lyrics-dataset)  <br>
