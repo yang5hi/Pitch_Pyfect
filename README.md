@@ -41,11 +41,9 @@ Lyrics API cross-check with the SpotifyⓇ  weekly/monthly popular songs. most s
 		Pop and Rock have a similar distribution.  Most songs are between 100 and 150 beats per minute.
 		Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
 		It is easier to rap over a slower tempo, so you can get as many words in as possible. 
-
 	- **Valence**
 		Valence measures the positive (happy) tones vs. negative (sad) tones. Valence does not differ much by genre. Rock and Pop are very similar. 
 		Hip-Hop does appear to have a higher valence. However, this could be attributed to the lack of data we had for hip-hop (This chart didn’t tell us much)
-
 	- **Beats Per Measure**
 		There is no difference between beats per measure. All three genres compose using 4 beats per measure. (This chart didn’t tell us much)
 
@@ -54,22 +52,23 @@ Lyrics API cross-check with the SpotifyⓇ  weekly/monthly popular songs. most s
 Hip-Hop emerged later with the birth of technology/digital recording.
 
 **Final Conclusions**
-There is no golden formula for composing the perfect song.  However, depending on the genre, there are a couple of tips to keep in mind:
-	- For Rock:
-		- Recommended Keys: G, C, D, A
-		- Major or Minor?:  Major
-		- Ideal Tempo: 100-150 bpm
-	- For Pop (Pop has slightly more freedom to experiment with key signature than Rock because it is less reliant on the guitar):
-		- Recommended Keys: G, C, D, A
-		- Major or Minor? Major
-		- Ideal Tempo: 100-150 bpm
-	- For Hip-Hop
-		- Not restricted to any key, free to experiment
-		- Major or Minor? Not restricted, free to use either
-		- Ideal Tempo: 80-100 bpm
+There is no golden formula for composing the perfect song.  However, depending on the genre, there are a couple of tips to keep in mind: <br>
+	- For Rock: <br>
+		- Recommended Keys: G, C, D, A <br>
+		- Major or Minor?:  Major <br>
+		- Ideal Tempo: 100-150 bpm <br>
+	- For Pop (Pop has slightly more freedom to experiment with key signature than Rock because it is less reliant on the guitar): <br>
+		- Recommended Keys: G, C, D, A <br>
+		- Major or Minor? Major <br>
+		- Ideal Tempo: 100-150 bpm <br>
+	- For Hip-Hop <br>
+		- Not restricted to any key, free to experiment <br>
+		- Major or Minor? Not restricted, free to use either <br>
+		- Ideal Tempo: 80-100 bpm <br>
 
 **Limitations of the project:**
-	SpotifyⓇ has over 50 million songs.  We are using a dataset of less than 5% of the SpotifyⓇ song library. We are also using the Brazilian website Vagalume. 
+	SpotifyⓇ has over 50 million songs.  We are using a dataset of less than 5% of the SpotifyⓇ song library. 
+	We are also using the Brazilian website Vagalume for its genre, lyrics and artist data.
 	Geographic limitations 
 	The definition of ‘popular’ is narrow.
 	The result can be just as good as the data sample.
