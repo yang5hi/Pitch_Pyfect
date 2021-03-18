@@ -7,22 +7,18 @@
 	Music is an essential part of our daily life.  Usually, song composition comes from a place of creativity.  In this project, we will approach it from an analytical viewpoint.  Lots of data can be collected about music theory and song structure—for example, key signature, beats per minute, beats per measure, tempo, etc.    
 	In this project, we mined through the SpotifyⓇ music database and identified the optimal ranges of these characteristics.  Also, we will search through lyrics by genre in order to identify keywords.
 
-Rationale:
+**Rationale:**
 	We want to answer this question: Is there a golden music element ratio to compose a popular song? Do the DNA of the songs agree with the music theory?
 
-Datasets:
+**Datasets:**
 We utilized multiple datasets were in this study. On the music theory part, a data set contains 1.2 million tracks were used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code) and further the tracks information from Spotify API. On the trend study, we used a data set of 175k tracks. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year.
 Lyrics API cross-check with the SpotifyⓇ  weekly/monthly popular songs. most successful artists by decade
 
 **Methods and Findings:**
-	We first narrow down our genre studies on Rock, Pop, and Hip-Hop music. With the artist lists we have under those three genres; we cross-check the data with the Spotify data in hand to get a final data frame with tracks(songs), artists, genres, mode, key, 
-Develop a lyrics keyword search by genre.  Are there specific keywords that show up in the lyrics of pop, country, etc.?
-What are the most popular key signatures songs are composed in?  Are these keys major or minor?
-Compare the valence of the different genres.
-Analyze tempo/beats per minute
-Do explicit lyrics have an effect?
+	We first narrow down our genre studies on Rock, Pop, and Hip-Hop music. With the artist lists we have under those three genres, we cross-check the data with the Spotify data in hand to get a final data frame with tracks(songs), artists, genres, mode, key, tempo, valence, year, and lyrics. We then find out the popular keys, common mode, valence value tendencies, temp range for each genre. We plotted the number of songs we have in our study by publication year. With that information, we utilized New York Times API on the article count of keys words 'Rock Music', 'Pop Music', and "Hip Hop" from 1921 to 2020. As for the lyrics, we first gather all the lyrics we have into a data frame, break down each sentence into words and count the occurrences. Due to the limitation of our knowledge, we have to remove certain none characteristic words by hand to come up with a top 10 list for each genre.
 
-After analyzing the data, are there specific parameters that should be met when composing a pop song, metal song, and country song?
+	After analyzing the data, here are our finding:
+
 	- **Key Signatures**
 		Songs are composed in key signatures. The most commonly used key signatures in Rock and pop are C, G, D, and A.
 		Pop and Rock songs are usually composed of a guitar standpoint.  G, C, D, and A are guitar-friendly key signatures
@@ -42,16 +38,16 @@ After analyzing the data, are there specific parameters that should be met when 
 		In Hip-Hop music, there is more freedom to experiment using different key signatures.
 		This graph further proves, hip-hop music also has more freedom when deciding if the key is major or minor.
 	- **Tempo**
-	Pop and Rock have a similar distribution.  Most songs are between 100 and 150 beats per minute.
-	Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
-	It is easier to rap over a slower tempo, so you can get as many words in as possible. 
+		Pop and Rock have a similar distribution.  Most songs are between 100 and 150 beats per minute.
+		Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
+		It is easier to rap over a slower tempo, so you can get as many words in as possible. 
 
 	- **Valence**
-	Valence measures the positive (happy) tones vs. negative (sad) tones. Valence does not differ much by genre. Rock and Pop are very similar. 
-	Hip-Hop does appear to have a higher valence. However, this could be attributed to the lack of data we had for hip-hop (This chart didn’t tell us much)
+		Valence measures the positive (happy) tones vs. negative (sad) tones. Valence does not differ much by genre. Rock and Pop are very similar. 
+		Hip-Hop does appear to have a higher valence. However, this could be attributed to the lack of data we had for hip-hop (This chart didn’t tell us much)
 
 	- **Beats Per Measure**
-	There is no difference between beats per measure. All three genres compose using 4 beats per measure. (This chart didn’t tell us much)
+		There is no difference between beats per measure. All three genres compose using 4 beats per measure. (This chart didn’t tell us much)
 
 **Why are Pop and Rock similar?**
 	We searched for articles about each genre using the NYT API.  Pop and Rock were created around the same time. Pop and Rock have grown and evolved side-by-side.
