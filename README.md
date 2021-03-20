@@ -1,7 +1,7 @@
 # Pitch_Pyfect
 
 ## Pitch Pyfect Project
-![Pitch Pyfect](Images/Pitch_Pyfect_logo.png)
+![Pitch Pyfect](Images/Pitch_Pyfect_logo.PNG)
 
 ### Background:
 Music is an essential part of our daily life.  Usually, song composition comes from a place of creativity.  In this project, we will approach it from an analytical viewpoint.  Lots of data can be collected about music theory and song structure—for example, key signature, beats per minute, beats per measure, tempo, etc.   
@@ -17,7 +17,7 @@ We utilized multiple datasets in this study. A data set containing 1.2 million t
 ### Methods and Findings:
 We first narrowed down our genres to Rock, Pop, and Hip-Hop music. With the artist lists we have under those three genres, we cross-checked the data with the Spotify data in hand to get a final data frame with tracks(songs), artists, genres, mode, key, tempo, valence, year, and lyrics. We then find out the popular keys, common mode, valence value tendencies, temp range for each genre. We plotted the number of songs we have in our study by publication year. With that information, we utilized New York Times API on the article count of keys words 'Rock Music', 'Pop Music', and "Hip Hop" from 1921 to 2020. As for the lyrics, we first gather all the lyrics we have into a data frame, break down each sentence into words and count the occurrences. Due to the limitation of our knowledge, we have to remove certain none characteristic words by hand to come up with a top 10 list for each genre.
 
-After analyzing the data, here are our finding:
+After analyzing the data, here are our findings:
 
 - **Key Signatures**
 	Songs are composed in key signatures. The most commonly used key signatures in Rock and pop are C, G, D, and A.
