@@ -1,6 +1,0 @@
-Spotify 1.2 million tracks - https://www.kaggle.com/rodolfofigueroa/spotify-12m-songs
-
-
-Spotify 175,000 tracks - https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
-
-
