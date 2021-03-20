@@ -1,21 +1,20 @@
 # Pitch_Pyfect
 
 ## Pitch Pyfect Project
-- Project members:  **Staci Wilson, Yang Shi, Zach Moormeier**
+![Pitch Pyfect](Images/Pitch_Pyfect_logo.png)
 
-### **Background:**
+### Background:
 Music is an essential part of our daily life.  Usually, song composition comes from a place of creativity.  In this project, we will approach it from an analytical viewpoint.  Lots of data can be collected about music theory and song structure—for example, key signature, beats per minute, beats per measure, tempo, etc.   
 
 In this project, we mined through the SpotifyⓇ music database and identified the optimal ranges of these characteristics.
 
-### **Rationale:**
+### Rationale:
 We want to answer thse questions: Is there a golden music element ratio to compose a popular song? Do the DNA of the songs agree with the music theory? Where are those difference come from and why?
 
-### **Datasets:**
+### Datasets:
 We utilized multiple datasets in this study. A data set containing 1.2 million tracks was used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code).  He combined this data with data from the Spotify API. On the trend study, we used a data set of 175k tracks. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year.
 
-
-### **Methods and Findings:**
+### Methods and Findings:
 We first narrowed down our genres to Rock, Pop, and Hip-Hop music. With the artist lists we have under those three genres, we cross-checked the data with the Spotify data in hand to get a final data frame with tracks(songs), artists, genres, mode, key, tempo, valence, year, and lyrics. We then find out the popular keys, common mode, valence value tendencies, temp range for each genre. We plotted the number of songs we have in our study by publication year. With that information, we utilized New York Times API on the article count of keys words 'Rock Music', 'Pop Music', and "Hip Hop" from 1921 to 2020. As for the lyrics, we first gather all the lyrics we have into a data frame, break down each sentence into words and count the occurrences. Due to the limitation of our knowledge, we have to remove certain none characteristic words by hand to come up with a top 10 list for each genre.
 
 After analyzing the data, here are our finding:
@@ -28,7 +27,8 @@ After analyzing the data, here are our finding:
 	Hip-hop music rarely features guitar as an instrument.  Therefore, this genre is not restricted to using G, C, D, and A 
 	That is why more #sharp keys show up. (The key of B is also difficult to play on the guitar)
 	In Hip-Hop Music, there is more freedom to experiment using different key signatures.
-- ** mode (major or minor)**
+    
+- **Mode (major or minor)**
 	Key signatures will be major or minor
 	The majority of pop and rock music is composed in major keys. 
 	Major keys are also more guitar-friendly. 
@@ -38,15 +38,18 @@ After analyzing the data, here are our finding:
 	This goes along with our previous point:
 	In Hip-Hop music, there is more freedom to experiment using different key signatures.
 	This graph further proves, hip-hop music also has more freedom when deciding if the key is major or minor.
+    
 - **Valence**
 	Typically, major key signatures are used to compose happy songs and minor keys are used for sad songs.
 	We predicted that songs composed in a major key would have a higher valence and songs composed in a minor key would have a lower valence.
 	However, this is not the case
 	It is possible to write a happy song in a minor key and vice versa
+    
 - **Tempo**
 	Pop and Rock have a similar distribution.  Most songs are between 100 and 140 beats per minute.
 	Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
 	It is easier to rap over a slower tempo, so you can get as many words in as possible. 
+    
 - **Beats Per Measure**
 	There is no difference between beats per measure. All three genres compose using 4 beats per measure. (This chart didn’t tell us much)
 
@@ -68,7 +71,7 @@ After analyzing the data, here are our finding:
 
 **Applications:**
 	- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres. <br>
-	
+
 **References:** <br>
 	- [music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
 	- [song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
@@ -76,6 +79,6 @@ After analyzing the data, here are our finding:
 	- [Spotify 1.2M+ Songs](https://www.kaggle.com/rodolfofigueroa/spotify-12m-songs)  <br>
 	- [Spotify 1921-2020](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)  <br>
 	- [NYT API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)  <br>
-	
+
 ## Copyright 
 **This work originated and belonged to Staci Wilson, Yang Shi, Zach Moormeier.**
