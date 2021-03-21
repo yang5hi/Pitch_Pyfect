@@ -8,8 +8,14 @@ Music is an essential part of our daily life.  Usually, song composition comes f
 
 In this project, we mined through the SpotifyⓇ music database and identified the optimal ranges of these characteristics.
 
-### Rationale:
-We want to answer thse questions: Is there a golden music element ratio to compose a popular song? Do the DNA of the songs agree with the music theory? Where are those difference come from and why?
+### Questions asked:
+Looking at the genres of Rock, Pop, and Hip-Hop:
+
+What are the popular key signatures in each genre?
+Do certain genres prefer major or minor key signatures?
+Do major or minor keys affect valence?
+What is the average tempo in beats per minute?
+Are there differences in time signature?
 
 ### Datasets:
 We utilized multiple datasets in this study. A data set containing 1.2 million tracks was used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code).  He combined this data with data from the Spotify API. On the trend study, we used a data set of 175k tracks. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year.
@@ -20,12 +26,11 @@ We first narrowed down our genres to Rock, Pop, and Hip-Hop music. With the arti
 After analyzing the data, here are our findings:
 
 - **Key Signatures**
-	Songs are composed in key signatures. The most commonly used key signatures in Rock and pop are C, G, D, and A.
-	Pop and Rock songs are usually composed from a guitar standpoint.  G, C, D, and A are guitar-friendly key signatures
-	Hip Hop music has C# as its most used key signature.  Followed by B and F#.  This is very different from Pop and Rock.
-	Hip Hop music is composed from a keyboard standpoint.  When using a keyboard/synthesizer, you have more freedom to compose in any key you want.
-	Hip-hop music rarely features guitar as an instrument.  Therefore, this genre is not restricted to using G, C, D, and A 
-	That is why more #sharp keys show up. (The key of B is also difficult to play on the guitar)
+	Songs are composed in key signatures. 
+	Our data showed that pop and rock prefer G, C, D, A.  
+	Pop and Rock don't utilize sharp keys as often.
+	In Hip-Hop, sharp keys are more prevalent and key signatures are more evenly distrubuted.
+	Hip Hop music is composed from a keyboard standpoint.  It is easier to utilize sharp keys using a keyboard or synthesizer.
 	In Hip-Hop Music, there is more freedom to experiment using different key signatures.
     
 - **Mode (major or minor)**
