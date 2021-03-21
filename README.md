@@ -33,46 +33,49 @@ After analyzing the data, here are our findings:
 	Hip Hop music is composed from a keyboard standpoint.  It is easier to utilize sharp keys using a keyboard or synthesizer.
 	In Hip-Hop Music, there is more freedom to experiment using different key signatures.
     
-- **Mode (major or minor)**
-	Key signatures will be major or minor
+- **Major vs. Minor**
+	Key signatures can be major or minor.
 	The majority of pop and rock music is composed in major keys. 
 	Major keys are also more guitar-friendly. 
-	Hip-Hop shows a 55%/ 45% split between major and minor keys 
+	Hip-Hop shows a 55%/ 45% split between major and minor keys .
 	Because hip-hop music is composed of a keyboard standpoint, this genre is free to experiment more with major/minor keys.
-	Hip-Hop producers don’t have to cater to the guitar players
-	This goes along with our previous point:
-	In Hip-Hop music, there is more freedom to experiment using different key signatures.
-	This graph further proves, hip-hop music also has more freedom when deciding if the key is major or minor.
     
 - **Valence**
-	Typically, major key signatures are used to compose happy songs and minor keys are used for sad songs.
+	Valence measures positive or happy tones vs negative or sad tones.
+	A lot of times, major key signatures are used to compose happy songs and minor keys are used for sad songs.
 	We predicted that songs composed in a major key would have a higher valence and songs composed in a minor key would have a lower valence.
-	However, this is not the case
-	It is possible to write a happy song in a minor key and vice versa
+	However, we found this not to be the case.
+	It is possible to write a happy song in a minor key and a sad song in a major key.
+
+	We also wanted to compare the overall valence across the 3 genres.  We were hoping to find that pop was skewed toward 1.  And rock was skewed toward 0.  
+	However, rock and pop actually look very similar.  This just means that there is a normal distribution of both happy and sad songs in each genre.
+	For Hip-Hop, songs are concentrated around the 0.5 range.
+	This could mean that Hip-Hop songs have less range when it comes to happiness or sadness, and that Hip-Hop songs have a more consistent tone.
+
     
 - **Tempo**
 	Pop and Rock have a similar distribution.  Most songs are between 100 and 140 beats per minute.
 	Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
-	It is easier to rap over a slower tempo, so you can get as many words in as possible. 
+	It is easier to rap over a slower tempo.
     
 - **Beats Per Measure**
 	There is no difference between beats per measure. All three genres compose using 4 beats per measure. (This chart didn’t tell us much)
 
 **Why are Pop and Rock similar?**
 	We searched for articles about each genre using the NYT API.  Pop and Rock were created around the same time. Pop and Rock have grown and evolved side-by-side.
-	Hip-Hop emerged later with the birth of technology/digital recording.
+	Hip-Hop emerged 30 years later with the birth of technology/digital recording.
 
 **Final Conclusions**
-	- If you want to compose a typical rock song, make things easy on yourself and put it in G, C, D, A and make sure the key signature is major.  
-	- Optimal tempo = 100-140 bpm
-	- For pop, follow the same guidelines but know you have slightly more freedom to experiment with key signature because you are less reliant on guitar
-	-For Hip-Hop,  feel free to experiment with any key signature whether it be major or minor
-	Pull your tempo back to about 80-100 bpm, so it’s easier to rap over
-
+	After comparing the 3 genres in terms of song structure, we found rock and pop to be similar.  However, we did find a few differences when it came to hip-hop.
+	If you want to compose a typical rock song, choose G, C, D, A and make your key signature major.  Also, make sure your song is around 100-140bpm.
+	For pop, follow the same guidelines but know you have slightly more freedom to experiment with key signature because you are less reliant on the guitar.
+	For Hip-Hop, pull your tempo back to about 80-100 bpm, so its easier to rap over.
+	Feel free to experiment with any key signature whether it be major or minor.
 
 **Limitations of the project:**
 	SpotifyⓇ has over 50 million songs.  We are using a dataset of less than 5% of the SpotifyⓇ song library. 
 	We were also using the Brazilian website Vagalume for its genre, lyrics and artist data.
+	Our data contains more rock songs than both pop and hip-hop.
 
 **Applications:**
 	- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres. <br>
