@@ -11,11 +11,11 @@ In this project, we mined through the SpotifyⓇ music database and identified t
 ### Questions asked:
 Looking at the genres of Rock, Pop, and Hip-Hop:
 
-What are the popular key signatures in each genre?
-Do certain genres prefer major or minor key signatures?
-Do major or minor keys affect valence?
-What is the average tempo in beats per minute?
-Are there differences in time signature?
+- What are the popular key signatures in each genre?
+- Do certain genres prefer major or minor key signatures?
+- Do major or minor keys affect valence?
+- What is the average tempo in beats per minute?
+- Are there differences in time signature?
 
 ### Datasets:
 We utilized multiple datasets in this study. A data set containing 1.2 million tracks was used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code).  He combined this data with data from the Spotify API. On the trend study, we used a data set of 175k tracks. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year.
