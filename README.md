@@ -68,11 +68,11 @@ After analyzing the data, here are our findings:
 **Final Conclusions**
 	After comparing the 3 genres in terms of song structure, we found rock and pop to be similar.  However, we did find a few differences when it came to hip-hop.
 	
-	If you want to compose a typical rock song, choose G, C, D, A and make your key signature major.  Set your valence anywhere between 0 and 1.  Rock songs can be happy, 		sad, or anywhere in between.  Also, make sure your song is around 100-140bpm. 
+- If you want to compose a typical rock song, choose G, C, D, A and make your key signature major.  Set your valence anywhere between 0 and 1.  Rock songs can be happy, 		sad, or anywhere in between.  Also, make sure your song is around 100-140bpm. 
 	
-	For pop, follow the same guidelines but know you have slightly more freedom to experiment with key signature because you are less reliant on the guitar
+- For pop, follow the same guidelines but know you have slightly more freedom to experiment with key signature because you are less reliant on the guitar
 	
-	For Hip-Hop, feel free to experiment with any key signature whether it be major or minor.  Set your Valence to around 0.5.  Hip-Hop songs aren’t overly happy or 		depressing.  They have a more consistent tone.  Finally, pull your tempo back to around 80-100 bpm, so it’s easier to rap over.
+- For Hip-Hop, feel free to experiment with any key signature whether it be major or minor.  Set your Valence to around 0.5.  Hip-Hop songs aren’t overly happy or 		depressing.  They have a more consistent tone.  Finally, pull your tempo back to around 80-100 bpm, so it’s easier to rap over.
 
 
 **Limitations of the project:**
