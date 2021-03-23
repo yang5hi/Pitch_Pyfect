@@ -18,10 +18,10 @@ Looking at the genres of Rock, Pop, and Hip-Hop:
 - Are there differences in time signature?
 
 ### Datasets:
-We utilized multiple datasets in this study. A data set containing 1.2 million tracks was used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code).  He combined this data with data from the Spotify API. On the trend study, we used a data set of 175k tracks. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year.
+We utilized multiple datasets in this study. Two data sets containing 1.2 million and 175k tracks information were used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code).  The contributor then combined this data with data from the Spotify API. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year. The lyrics and genre information was gathered from two other csv data sets. This genre data is scraped from the Vagalume website by the contributor on Kaggle, and the other lyrics were gathered from a 250k+ lyrics dataset which is no longer available on Kaggle.
 
 ### Methods and Findings:
-We first narrowed down our genres to Rock, Pop, and Hip-Hop music. With the artist lists we have under those three genres, we cross-checked the data with the Spotify data in hand to get a final data frame with tracks(songs), artists, genres, mode, key, tempo, valence, year, and lyrics. We then find out the popular keys, common mode, valence value tendencies, temp range for each genre. We plotted the number of songs we have in our study by publication year. With that information, we utilized New York Times API on the article count of keys words 'Rock Music', 'Pop Music', and "Hip Hop" from 1921 to 2020. As for the lyrics, we first gather all the lyrics we have into a data frame, break down each sentence into words and count the occurrences. Due to the limitation of our knowledge, we have to remove certain none characteristic words by hand to come up with a top 10 list for each genre.
+We first narrowed down our genres to Rock, Pop, and Hip-Hop music. With the artist lists we have under those three genres, we cross-checked the data with the Spotify data in hand to get a final data frame with tracks(songs), artists, genres, mode, key, tempo, valence, year, and lyrics. We then find out the popular keys, common mode, valence value tendencies, temp range for each genre. We plotted the number of songs we have in our study by publication year. With that information, we utilized New York Times API on the article count of keys words 'Rock Music,' 'Pop Music,' and 'Hip Hop' from 1921 to 2020. As for the lyrics, we first gather all the lyrics we have into one data frame, break down each sentence into words and count the occurrences. Due to the limitation of our knowledge, we have to remove certain none characteristic words by hand to come up with a top 10 list for each genre.
 
 After analyzing the data, here are our findings:
 
@@ -83,11 +83,11 @@ After analyzing the data, here are our findings:
 	- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres. <br>
 
 **References:** <br>
-	- [music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
-	- [song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
-	- [Song lyrics dataset](https://www.kaggle.com/deepshah16/song-lyrics-dataset)  <br>
+	- [Music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
+	- [Song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
+	- [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/edenbd/150k-lyrics-labeled-with-spotify-valence)  <br>
 	- [Spotify 1.2M+ Songs](https://www.kaggle.com/rodolfofigueroa/spotify-12m-songs)  <br>
-	- [Spotify 1921-2020](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)  <br>
+	- [Spotify Dataset 1921-2020, 160k+ Tracks](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)  <br>
 	- [NYT API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)  <br>
 
 ## Copyright 
