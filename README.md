@@ -61,8 +61,9 @@ After analyzing the data, here are our findings:
 - **Beats Per Measure**
 	There is no difference between beats per measure. All three genres compose using 4 beats per measure. (This chart didn’t tell us much)
 
-**Final Conclusions**
-	After comparing the 3 genres in terms of song structure, we found rock and pop to be similar.  However, we did find a few differences when it came to hip-hop.
+**Conclusions**
+
+After comparing the 3 genres in terms of song structure, we found rock and pop to be similar.  However, we did find a few differences when it came to hip-hop.
 	
 - If you want to compose a typical rock song, choose G, C, D, A and make your key signature major.  Set your valence anywhere between 0 and 1.  Rock songs can be happy, 		sad, or anywhere in between.  Also, make sure your song is around 100-140bpm. 
 	
@@ -74,15 +75,13 @@ After analyzing the data, here are our findings:
 	We searched for articles about each genre using the NYT API.  Pop and Rock were created around the same time. Pop and Rock have grown and evolved side-by-side.
 	Hip-Hop emerged 30 years later with the birth of technology/digital recording.
 
-**Limitations of the project:**
-	SpotifyⓇ has over 50 million songs.  We are using a dataset of less than 5% of the SpotifyⓇ song library. 
-	We were also using the Brazilian website Vagalume for its genre, lyrics and artist data.
-	Our data contains more rock songs than both pop and hip-hop.
+### Limitations of the project:
+SpotifyⓇ has over 50 million songs.  We are using a dataset of less than 5% of the SpotifyⓇ song library. We were also using the Brazilian website Vagalume for its genre, lyrics and artist data. Our data contains more rock songs than both pop and hip-hop.
 
-**Applications:**
-	- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres. <br>
+### Applications:
+- Guidelines for composing a commercially successful song in rock, pop, and hiphop genres. <br>
 
-**References:** <br>
+### References: <br>
 	- [Music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
 	- [Song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
 	- [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/edenbd/150k-lyrics-labeled-with-spotify-valence)  <br>
