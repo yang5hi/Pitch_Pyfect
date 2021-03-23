@@ -82,12 +82,12 @@ SpotifyⓇ has over 50 million songs.  We are using a dataset of less than 5% of
 - Guidelines for composing a commercially successful song in rock, pop, and hiphop genres. <br>
 
 ### References: <br>
-	- [Music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
-	- [Song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
-	- [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/edenbd/150k-lyrics-labeled-with-spotify-valence)  <br>
-	- [Spotify 1.2M+ Songs](https://www.kaggle.com/rodolfofigueroa/spotify-12m-songs)  <br>
-	- [Spotify Dataset 1921-2020, 160k+ Tracks](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)  <br>
-	- [NYT API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)  <br>
+- [Music theory wiki](https://en.wikipedia.org/wiki/Music_theory) <br>
+- [Song lyrics from 6 genres](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres)  <br>
+- [150K Lyrics Labeled with Spotify Valence](https://www.kaggle.com/edenbd/150k-lyrics-labeled-with-spotify-valence)  <br>
+- [Spotify 1.2M+ Songs](https://www.kaggle.com/rodolfofigueroa/spotify-12m-songs)  <br>
+- [Spotify Dataset 1921-2020, 160k+ Tracks](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)  <br>
+- [NYT API](https://developer.nytimes.com/docs/articlesearch-product/1/overview)  <br>
 
 ## Copyright 
 **This work originated and belonged to Staci Wilson, Yang Shi, Zach Moormeier.**
