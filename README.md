@@ -70,6 +70,7 @@ After comparing the 3 genres in terms of song structure, we found rock and pop t
 - For Hip-Hop, feel free to experiment with any key signature whether it be major or minor.  Set your Valence to around 0.5.  Hip-Hop songs aren’t overly happy or 		depressing.  They have a more consistent tone.  Finally, pull your tempo back to around 80-100 bpm, so it’s easier to rap over.
 
 **Why are Pop and Rock similar?**
+
 	We searched for articles about each genre using the NYT API.  Pop and Rock were created around the same time. Pop and Rock have grown and evolved side-by-side.
 	Hip-Hop emerged 30 years later with the birth of technology/digital recording.
 
