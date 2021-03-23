@@ -54,7 +54,10 @@ After analyzing the data, here are our findings:
 - **Tempo**
 	Pop and Rock have a similar distribution.  Most songs are between 100 and 140 beats per minute.
 	Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
-	It is easier to rap over a slower tempo.
+	
+	Looking at the box plot, rock and pop have a median of around 125.
+	Hip-Hop has a median of around 100 bpm.
+	Our theory is that hip-hop songs have a slightly slower tempo on average because it is easier to rap over a slower tempo.
     
 - **Beats Per Measure**
 	There is no difference between beats per measure. All three genres compose using 4 beats per measure. (This chart didn’t tell us much)
