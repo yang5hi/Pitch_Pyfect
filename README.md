@@ -1,6 +1,4 @@
-# Pitch_Pyfect
-
-## Pitch Pyfect Project
+# Pitch_Pyfect Project
 ![Pitch Pyfect](Images/Pitch_Pyfect_logo.PNG)
 
 ### Background:
