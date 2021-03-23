@@ -71,8 +71,7 @@ After comparing the 3 genres in terms of song structure, we found rock and pop t
 
 **Why are Pop and Rock similar?**
 
-	We searched for articles about each genre using the NYT API.  Pop and Rock were created around the same time. Pop and Rock have grown and evolved side-by-side.
-	Hip-Hop emerged 30 years later with the birth of technology/digital recording.
+We searched for articles about each genre using the NYT API.  Pop and Rock were created around the same time. Pop and Rock have grown and evolved side-by-side. Hip-Hop emerged 30 years later with the birth of technology/digital recording.
 
 ### Limitations of the project:
 SpotifyⓇ has over 50 million songs.  We are using a dataset of less than 5% of the SpotifyⓇ song library. We were also using the Brazilian website Vagalume for its genre, lyrics and artist data. Our data contains more rock songs than both pop and hip-hop.
