@@ -26,7 +26,7 @@ We first narrowed down our genres to Rock, Pop, and Hip-Hop music. With the arti
 
 After analyzing the data, here are our findings:
 
-![key signature](Output_data/Key_Signature.png)
+![key signature](Output_Data/Key_Signature.png)
 - **Key Signatures**
 	Songs are composed in key signatures. 
 	Our data showed that pop and rock prefer G, C, D, A.  
@@ -35,7 +35,7 @@ After analyzing the data, here are our findings:
 	Hip Hop music is composed from a keyboard standpoint.  It is easier to utilize sharp keys using a keyboard or synthesizer.
 	In Hip-Hop Music, there is more freedom to experiment using different key signatures.
     
-![mode signature](Output_data/Mode_Signature.png)    
+![mode signature](Output_Data/Mode_Signature.png)    
 - **Major vs. Minor**
 	Key signatures can be major or minor.
 	The majority of pop and rock music is composed in major keys. 
@@ -43,9 +43,9 @@ After analyzing the data, here are our findings:
 	Hip-Hop shows a 55%/ 45% split between major and minor keys .
 	Because hip-hop music is composed of a keyboard standpoint, this genre is free to experiment more with major/minor keys.
     
-![valence signature](Output_data/Histogram of Valence all genres.png)
+![valence signature](Output_Data/Histogram of Valence all genres.png)
 
-![key valence](Output_data/Histogram of Valence Major vs Minor.png)
+![key valence](Output_Data/Histogram of Valence Major vs Minor.png)
 - **Valence**
 	Valence measures positive or happy tones vs negative or sad tones.
 	A lot of times, major key signatures are used to compose happy songs and minor keys are used for sad songs.
