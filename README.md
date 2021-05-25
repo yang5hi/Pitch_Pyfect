@@ -17,12 +17,15 @@ Looking at the genres of Rock, Pop, and Hip-Hop:
 
 ### Datasets:
 We utilized multiple datasets in this study. Two data sets containing 1.2 million and 175k tracks information were used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code).  The contributor then combined this data with data from the Spotify API. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year. The lyrics and genre information was gathered from two other csv data sets. This genre data is scraped from the Vagalume website by the contributor on Kaggle, and the other lyrics were gathered from a 250k+ lyrics dataset which is no longer available on Kaggle.
+[!nyt](Output_Data/NYT_article_counts.png)
+[!spotify](Output_Data/Song Counts on Music Genres.png)
 
 ### Methods and Findings:
 We first narrowed down our genres to Rock, Pop, and Hip-Hop music. With the artist lists we have under those three genres, we cross-checked the data with the Spotify data in hand to get a final data frame with tracks(songs), artists, genres, mode, key, tempo, valence, year, and lyrics. We then find out the popular keys, common mode, valence value tendencies, temp range for each genre. We plotted the number of songs we have in our study by publication year. With that information, we utilized New York Times API on the article count of keys words 'Rock Music,' 'Pop Music,' and 'Hip Hop' from 1921 to 2020. As for the lyrics, we first gather all the lyrics we have into one data frame, break down each sentence into words and count the occurrences. Due to the limitation of our knowledge, we have to remove certain none characteristic words by hand to come up with a top 10 list for each genre.
 
 After analyzing the data, here are our findings:
 
+[!key signature](Output_data/Key_Signature.png)
 - **Key Signatures**
 	Songs are composed in key signatures. 
 	Our data showed that pop and rock prefer G, C, D, A.  
@@ -31,6 +34,7 @@ After analyzing the data, here are our findings:
 	Hip Hop music is composed from a keyboard standpoint.  It is easier to utilize sharp keys using a keyboard or synthesizer.
 	In Hip-Hop Music, there is more freedom to experiment using different key signatures.
     
+[!mode signature](Output_data/Mode_Signature.png)    
 - **Major vs. Minor**
 	Key signatures can be major or minor.
 	The majority of pop and rock music is composed in major keys. 
@@ -38,6 +42,8 @@ After analyzing the data, here are our findings:
 	Hip-Hop shows a 55%/ 45% split between major and minor keys .
 	Because hip-hop music is composed of a keyboard standpoint, this genre is free to experiment more with major/minor keys.
     
+[!valence signature](Output_data/Histogram of Valence all genres.png)
+[!key valence](Output_data/Histogram of Valence Major vs Minor.png)
 - **Valence**
 	Valence measures positive or happy tones vs negative or sad tones.
 	A lot of times, major key signatures are used to compose happy songs and minor keys are used for sad songs.
@@ -50,7 +56,7 @@ After analyzing the data, here are our findings:
 	For Hip-Hop, songs are concentrated around the 0.5 range.
 	This could mean that Hip-Hop songs have less range when it comes to happiness or sadness, and that Hip-Hop songs have a more consistent tone.
 
-    
+[!tempo](Output_Data/Histogram of Tempo all genres.pdf)    
 - **Tempo**
 	Pop and Rock have a similar distribution.  Most songs are between 100 and 140 beats per minute.
 	Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
