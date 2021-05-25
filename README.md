@@ -58,7 +58,7 @@ After analyzing the data, here are our findings:
 	For Hip-Hop, songs are concentrated around the 0.5 range.
 	This could mean that Hip-Hop songs have less range when it comes to happiness or sadness, and that Hip-Hop songs have a more consistent tone.
 
-![tempo](Output_Data/Histogram_of_Tempo_all_genres.pdf)    
+![tempo](Output_Data/Histogram_of_Tempo_all_genres.png)    
 - **Tempo**
 	Pop and Rock have a similar distribution.  Most songs are between 100 and 140 beats per minute.
 	Most of the Hip-Hop songs we studied have a slower tempo.  According to the histogram, most songs lie between the range of 80 to 100 beats per minute.  
