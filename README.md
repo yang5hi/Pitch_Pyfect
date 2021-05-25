@@ -18,6 +18,7 @@ Looking at the genres of Rock, Pop, and Hip-Hop:
 ### Datasets:
 We utilized multiple datasets in this study. Two data sets containing 1.2 million and 175k tracks information were used. The last update on the 1.2 m csv was on 12/20/2020. The contributor first acquired the entire MusicBrainz catalog and then queried the album with UPC (Universal Product Code).  The contributor then combined this data with data from the Spotify API. The 175k csv dataset was last updated on 01/24/2021, and the contributor searched the SpotifyⓇ API for tracks based on the released year. The lyrics and genre information was gathered from two other csv data sets. This genre data is scraped from the Vagalume website by the contributor on Kaggle, and the other lyrics were gathered from a 250k+ lyrics dataset which is no longer available on Kaggle.
 ![nyt](Output_Data/NYT_article_counts.png)
+
 ![spotify](Output_Data/Song Counts on Music Genres.png)
 
 ### Methods and Findings:
@@ -43,6 +44,7 @@ After analyzing the data, here are our findings:
 	Because hip-hop music is composed of a keyboard standpoint, this genre is free to experiment more with major/minor keys.
     
 ![valence signature](Output_data/Histogram of Valence all genres.png)
+
 ![key valence](Output_data/Histogram of Valence Major vs Minor.png)
 - **Valence**
 	Valence measures positive or happy tones vs negative or sad tones.
